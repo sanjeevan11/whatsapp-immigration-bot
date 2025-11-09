@@ -132,7 +132,7 @@ def sendlistsafe(to, header, body, btn, rows, fallbacktag=None):
     for i, t, d in rows:
         normrows.append({
             "id": i,
-            "title": t[:WALIM["listtitle"]],
+            "title": t[:WALIM["title"]],
             "description": d[:WALIM["listdesc"]]
         })
     
